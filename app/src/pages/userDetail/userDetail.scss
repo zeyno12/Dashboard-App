@@ -1,0 +1,129 @@
+@import "../../App.scss";
+.userdetail {
+  flex: 4;
+  padding: 20px;
+  .user_title_con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .user_btn {
+      width: 80px;
+      border: none;
+      padding: 5px;
+      background-color: hotpink;
+      color: white;
+      cursor: pointer;
+      border-radius: 7px;
+    }
+  }
+  .user_container {
+    margin-top: 20px;
+    display: flex;
+    .user_show {
+      flex: 1;
+      padding: 20px;
+      -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      .user_show_top {
+        display: flex;
+        align-items: center;
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+        .user_show_top_title {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          .user_show_top_name {
+            font-weight: 600;
+          }
+          .user_show_top_title {
+            font-weight: 300;
+            margin: 0;
+          }
+        }
+      }
+      .user_show_bottom {
+        margin-top: 20px;
+        .user_show_bot_title {
+          font-size: 14px;
+          font-weight: 600;
+          color: rgb(175, 170, 170);
+        }
+        .user_show_info {
+          display: flex;
+          align-items: center;
+          margin: 20px 0;
+          color: #444;
+          i {
+            font-size: 14px;
+          }
+          .user_show_bot_info {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .user_update {
+      flex: 2;
+      padding: 20px;
+      margin-left: 20px;
+      -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      .user_update_title{
+    font-size: 24px;
+    font-weight: 600;
+    
+    }
+      .uptade_form {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        .user_up_item{
+        display:flex;
+         flex-direction: column;
+        margin-top: 10px;
+        label{
+        margin-bottom: 5px;
+        font-size: 14px;
+        }
+        .up_input{
+        border: none;
+        width: 250px;
+        height: 30px;
+        outline: none;
+        border-bottom: 1px solid gray;
+        
+        }
+        }
+        .user_up_right{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .user_upload {
+                display: flex;
+                align-items: center;
+              img {
+                width: 100px;
+                height: 100px;
+                border-radius: 10px;
+                object-fit: cover;
+                margin-right: 20px;
+              }
+            }
+            .user_up_btn{
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            background-color: hotpink;
+            color: white;
+            }
+        }
+      }
+    }
+  }
+}

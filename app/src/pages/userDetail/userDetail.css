@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.userdetail {
+  flex: 4;
+  padding: 20px;
+}
+.userdetail .user_title_con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userdetail .user_title_con .user_btn {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: hotpink;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.userdetail .user_container {
+  margin-top: 20px;
+  display: flex;
+}
+.userdetail .user_container .user_show {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.userdetail .user_container .user_show .user_show_top {
+  display: flex;
+  align-items: center;
+}
+.userdetail .user_container .user_show .user_show_top img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.userdetail .user_container .user_show .user_show_top .user_show_top_title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.userdetail .user_container .user_show .user_show_top .user_show_top_title .user_show_top_name {
+  font-weight: 600;
+}
+.userdetail .user_container .user_show .user_show_top .user_show_top_title .user_show_top_title {
+  font-weight: 300;
+  margin: 0;
+}
+.userdetail .user_container .user_show .user_show_bottom {
+  margin-top: 20px;
+}
+.userdetail .user_container .user_show .user_show_bottom .user_show_bot_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.userdetail .user_container .user_show .user_show_bottom .user_show_info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+.userdetail .user_container .user_show .user_show_bottom .user_show_info i {
+  font-size: 14px;
+}
+.userdetail .user_container .user_show .user_show_bottom .user_show_info .user_show_bot_info {
+  margin-left: 10px;
+}
+.userdetail .user_container .user_update {
+  flex: 2;
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.userdetail .user_container .user_update .user_update_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.userdetail .user_container .user_update .uptade_form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_item label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_item .up_input {
+  border: none;
+  width: 250px;
+  height: 30px;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_right .user_upload {
+  display: flex;
+  align-items: center;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_right .user_upload img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
+.userdetail .user_container .user_update .uptade_form .user_up_right .user_up_btn {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: hotpink;
+  color: white;
+}/*# sourceMappingURL=userDetail.css.map */

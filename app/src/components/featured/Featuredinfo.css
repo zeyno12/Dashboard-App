@@ -1,0 +1,63 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.featured .featured_item {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.featured .featured_item .featured_title {
+  font-size: 20px;
+}
+.featured .featured_item .featured_money_con {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.featured .featured_item .featured_money_con .featured_money {
+  font-size: 30px;
+  font-weight: 600;
+}
+.featured .featured_item .featured_money_con .featured_money_rate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.featured .featured_item .featured_money_con .featured_money_rate .featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+.featured .featured_item .featured_money_con .featured_money_rate .featuredIcon.negative {
+  color: red;
+}
+.featured .featured_item .featured_sub {
+  font-size: 15px;
+  color: gray;
+}/*# sourceMappingURL=Featuredinfo.css.map */

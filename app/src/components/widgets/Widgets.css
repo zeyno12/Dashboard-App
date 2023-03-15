@@ -1,0 +1,76 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.widgets {
+  flex: 1;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-right: 20px;
+}
+.widgets .widget_title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.widgets .widgetsm_list {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgets .widgetsm_list .widgetsm_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetSmImg {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetsm_User {
+  display: flex;
+  flex-direction: column;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetsm_User .widgetsm_User_name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetsm_User .widgetsm_User_title {
+  font-weight: 300;
+  font-size: 14px;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetsm_button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+.widgets .widgetsm_list .widgetsm_list_item .widgetsm_button .widgetSmIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}/*# sourceMappingURL=Widgets.css.map */

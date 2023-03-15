@@ -1,0 +1,59 @@
+@import "../../App.scss";
+.widgets {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-right: 20px;
+
+  .widget_title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .widgetsm_list {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .widgetsm_list_item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px 0px;
+      .widgetSmImg {
+        width: 40px;
+        height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .widgetsm_User {
+        display: flex;
+        flex-direction: column;
+        .widgetsm_User_name {
+          font-weight: 600;
+          font-size: 14px;
+        }
+        .widgetsm_User_title {
+          font-weight: 300;
+          font-size: 14px;
+        }
+      }
+      .widgetsm_button {
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        padding: 7px 10px;
+        background-color: #eeeef7;
+        color: #555;
+        cursor: pointer;
+        .widgetSmIcon {
+          font-size: 16px !important;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+
